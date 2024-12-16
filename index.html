@@ -109,6 +109,30 @@ a {
     transform: scale(1.05);
     transition: .3s;
 }
+
+ .wrapper {
+        position: relative;
+        padding-bottom: 56.25%; 
+        height: 0;
+    }
+
+    .wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 10px solid #fff;
+        background-color: #fff;
+    }	
 </style>
 <body class="__variable_1e4310 __variable_c3aa02 antialiased" style="">
     <div class="min-h-screen bg-background text-foreground">
@@ -129,8 +153,9 @@ a {
                 <div class="p-6 pt-0">
                     <p class="mb-4 text-sm text-muted-foreground">Press Ctrl + D to bookmark this site for updates about NBAStreams domains.</p>
                     <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-4">
-
-                      <iframe src="https://streamslive.cloud/second" width="100%" height="800px" style="border:none;"></iframe>
+                           <div class="wrapper">
+<iframe allow="encrypted-media" width="100%" height="100%" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" allowfullscreen="yes" src="https://streamslive.cloud/second"></iframe></div>
+                     
                     </div>
                 </div>
             </div>
